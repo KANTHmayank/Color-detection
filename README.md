@@ -37,6 +37,7 @@ pip install -r requirements.txt
 
 
 ### Run the App
+
 python main.py
 
 Press q to quit the live window.
@@ -52,9 +53,11 @@ Color-detection/
 
 
 Edit this line in main.py to change the target color:
+
 yellow = [0, 255, 255]  # BGR color to detect
 
 📌 Future Enhancements
+
 Click-to-track: Allow user to click on a color in the frame.
 
 Integration with object detection models (YOLO/SSD) for enhanced functionality.
